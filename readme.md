@@ -7,7 +7,7 @@ Larapress es un PWA Blog con Laravel. Es un proyecto para profundizar en laravel
 
 
 <p align="center">
-  <img src=".static-readme/screenshot.png" width="100%" title="Learn App">
+  <img src=".static-readme/screenshot.png" width="97%" title="Learn App">
 </p>
 
 [Admin ](https://pabloquinteros.dev/larapress/)  
@@ -19,7 +19,7 @@ password: invitado
 ```
 
 <p align="center">
-  <img src=".static-readme/admin.png" width="100%" title="Learn App">
+  <img src=".static-readme/admin.png" width="97%" title="Learn App">
 </p>
 
 ## Instalación

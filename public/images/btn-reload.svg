@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-reload</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-697.000000, -1447.000000)">
+            <g id="btn-reload" transform="translate(698.000000, 1448.000000)">
+                <circle id="Oval" stroke="#D0D0D0" cx="22.5" cy="22.5" r="22.5"></circle>
+                <g id="baseline-cached-24px" transform="translate(10.000000, 10.000000)">
+                    <path d="M20.5833333,8.66666667 L16.25,13 L19.5,13 C19.5,16.5858333 16.5858333,19.5 13,19.5 C11.9058333,19.5 10.8658333,19.2291667 9.96666667,18.7416667 L8.385,20.3233333 C9.7175,21.1683333 11.2991667,21.6666667 13,21.6666667 C17.7883333,21.6666667 21.6666667,17.7883333 21.6666667,13 L24.9166667,13 L20.5833333,8.66666667 Z M6.5,13 C6.5,9.41416667 9.41416667,6.5 13,6.5 C14.0941667,6.5 15.1341667,6.77083333 16.0333333,7.25833333 L17.615,5.67666667 C16.2825,4.83166667 14.7008333,4.33333333 13,4.33333333 C8.21166667,4.33333333 4.33333333,8.21166667 4.33333333,13 L1.08333333,13 L5.41666667,17.3333333 L9.75,13 L6.5,13 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="0 0 26 0 26 26 0 26"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

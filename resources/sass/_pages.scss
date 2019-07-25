@@ -1,0 +1,219 @@
+#pages{
+    margin: 0;
+    padding: 0;
+   
+    .header{
+        height: 400px;
+        @include media(sm-max) {
+            height: 350px;
+        }
+        padding: 0px 25px;
+        text-align: center;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1, h2, p{
+          margin: 0;
+          padding: 0;  
+        }
+        
+        h1{
+            max-width: $containerWidth;
+            font-family: 'Khula', sans-serif;
+            font-weight: 800;
+            @include fontSize(90px);
+            
+            @include media(sm-max) {
+                @include fontSize(75px);
+            }
+            line-height: 1 !important;
+            margin-bottom: 0px;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            text-shadow:0px 1px 5px #121212;
+        }
+        h2{
+            font-family: 'Khula', sans-serif;
+            @include fontSize(33px);
+            font-weight: 400;
+            margin-bottom: 0px;
+            color: #fff;
+            text-align: center;
+            text-shadow:0px 2px 0px #121212;
+        }
+
+    
+    }
+
+    .content{
+        max-width: $containerWidth;
+        margin: 0 auto;
+        padding: 0px 25px;
+        font-family: 'Abhaya Libre', serif;
+        @include fontSize(24px);
+        color: #1E1E1E;
+        margin-top: 80px;
+        display: flex;
+        //flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        //display: grid;
+        //grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+        //grid-gap: 14px;
+        
+
+        h1, h2, h3, h4, h5, h6{
+            margin-top: 10px;
+            font-family: 'Khula', sans-serif;
+            font-weight: 800;
+            @include fontSize(26px);
+        } 
+
+        small{ 
+            display: block;
+            text-align: center;
+            color: #858585;
+        }
+
+        p{
+            margin: 0px;
+            margin-bottom: 36px;
+            color: #1E1E1E;
+            line-height: 1.2;
+            width: 100%;
+        }
+
+        img{
+            max-width:100%;
+            height:auto !important;
+        }
+
+
+        //cita
+        blockquote {
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 5px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+          }
+          blockquote:before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+          }
+          blockquote p {
+            display: inline;
+          }
+        
+        //article services
+        article{
+           
+            max-width: 300px;
+            margin-top: 50px;
+            @include media(md-max) {
+                 text-align: center;
+                 margin: auto;
+                 padding-top: 40px;
+            }
+
+            h1{
+                font-family: 'Khula', sans-serif;
+                font-weight: 800;
+                @include fontSize(30px);
+                margin: 0;
+                margin-top: 17px;
+            }
+
+            h2{
+                font-family: 'Khula', sans-serif;
+                font-weight: 400;
+                @include fontSize(20px);
+                line-height: 1.5em;
+                margin: 0;
+                margin-top: 9px;
+            }
+
+            a{
+                font-family: 'Khula', sans-serif;
+                font-weight: 700;
+                @include fontSize(20px);
+                color:#F5A623;
+                display: inline-block;
+                line-height: 1;
+                margin-top: 11px;
+                text-decoration: none;
+                border-bottom: 2px solid #F5A623;
+            }
+        }
+
+        //ul about
+
+        ul{
+            margin: 0px;
+            
+            display: block;
+            width: 100%;
+            column-count: 3;
+            @include media(sm-max) {
+                column-count:1;
+            }
+            li{
+                padding: 10px;  
+            }
+        }
+
+        // inputs contact
+
+        form{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        input{
+            width: 100%;
+            border: 1px solid #B2B2B2;
+            border-radius: 50px;
+            margin-bottom: 15px;
+            padding: 14px 23px 10px 23px;
+            box-sizing: border-box;
+            color: #000;
+            font-family: 'Khula', sans-serif;
+            font-weight: 400;
+            @include fontSize(17px);
+            
+        }
+
+        textarea{
+            width: 100%;
+            min-height: 250px;
+            border: 1px solid #B2B2B2;
+            padding: 20px;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #000;
+            font-family: 'Khula', sans-serif;
+            font-weight: 400;
+            @include fontSize(17px);
+            outline: 0;
+        }
+
+        input[type=submit]{
+            background: #0491FF;
+            color:#fff;
+            border: 0;
+            font-weight: 700;
+        }
+       
+    }
+
+}
